@@ -209,15 +209,14 @@ def query_post(link, num, rule):
     if not author:
         return {"message": "not found"}
     article_num = len(article_data_init)
+    if num < 0 or num > min(article_num, 1000):
+        num = min(article_num, 1000)
     api_json['statistical_data'] = {
         "author": author,
         "link": link,
         "avatar": avatar,
-        "article_num": article_num
+        "article_num": num
     }
-
-    if num < 0 or num > min(article_num, 1000):
-        num = min(article_num, 1000)
     if rule != "created" and rule != "updated":
         return {"message": "rule error, please use 'created'/'updated'"}
     article_data_init.sort(key=lambda x: x[rule], reverse=True)
