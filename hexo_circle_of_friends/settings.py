@@ -16,10 +16,10 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK = [
-    #{
-    #    "link": "https://zfe.space/link/",  # 友链页地址1，修改为你的友链页地址
-    #    "theme": "butterfly"
-    #},
+    {
+       "link": "https://blog.zytllt.cn/pyq.html",  # 友链页地址1，修改为你的友链页地址
+       "theme": "butterfly"
+    }
     #     {
     #     "link": "https://noionion.top/link/",  # 友链页地址2
     #     "theme": "butterfly",  # 友链页的获取策略
@@ -50,7 +50,7 @@ SETTINGS_FRIENDS_LINKS = {
         ["Xhofe's Blog", "https://nn.ci/", "https://nn.ci/images/avatar.png"],
         ["日式JK", "https://jk.rs/", "https://pic.imgdb.cn/item/6174e6c42ab3f51d91e20031.jpg"],
         ["一楼没太阳", "https://ylmty.cc/", "https://q1.qlogo.cn/g?b=qq&nk=24130801&src_uin=www.jlwz.cn&s=0"],
-        ["XIAOMING'S BLOG", "https://vimin.cc/", "https://pic.vimin.cc/logo.png"],
+        ["XIAOMING'S BLOG", "https://vimin.cc/", "https://pic.vimin.cc/logo.png"]
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
