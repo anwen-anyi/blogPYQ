@@ -43,6 +43,7 @@ SETTINGS_FRIENDS_LINKS = {
     "enable": False,
     "json_api": "",
     "list": [
+        # 示例1：
         ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
         # 示例2：使用suffix的配置如下
@@ -50,8 +51,6 @@ SETTINGS_FRIENDS_LINKS = {
         # 如果目标地址的后缀不在其中，就可以在这里添加
         # 比如 https://elizen.me/hello.xml ，填写：
         ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "hello.xml"],
-    ]
-        
     ]
 }
 
