@@ -6,8 +6,6 @@ on:
      - master
   schedule:
     - cron: "0 0,6,12,18,21 * * *"
-  watch:
-    types: [started]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -36,7 +34,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id  # 自己点的 start
     steps:
     - name: Checkout
       uses: actions/checkout@master
