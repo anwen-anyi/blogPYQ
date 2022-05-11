@@ -44,8 +44,13 @@ SETTINGS_FRIENDS_LINKS = {
     "json_api": "",
     "list": [
         # 示例1：
-        ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
-        ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
+        ["安稳Blog's", "https://blog.zytllt.cn/", "https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/blog/anwen-200x200.png"],
+        ["ZkeqのCoding日志", "https://icodeq.com/", "https://p6-tt.byteimg.com/origin/user-profile/77759605e13054f68a8d54ed7c510405.png"],
+        ["纳兰戏梦", "https://derm.top/", "https://z3.ax1x.com/2021/03/08/6lz4Dx.jpg"],
+        ["Xhofe's Blog", "https://nn.ci/", "https://nn.ci/images/avatar.png"],
+        ["日式JK", "https://jk.rs/", "https://pic.imgdb.cn/item/6174e6c42ab3f51d91e20031.jpg"],
+        ["一楼没太阳", "https://ylmty.cc/", "https://q1.qlogo.cn/g?b=qq&nk=24130801&src_uin=www.jlwz.cn&s=0"],
+        ["XIAOMING'S BLOG", "https://vimin.cc/", "https://pic.vimin.cc/logo.png"],
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
@@ -88,7 +93,7 @@ HTTP_PROXY = False
 OUTDATE_CLEAN = 60
 
 # 存储方式，可选项：leancloud，mysql，sqlite，mongodb；默认为leancloud
-DATABASE = "leancloud"
+DATABASE = "mysql"
 
 # 部署方式，可选项：github，server，docker；默认为github
 DEPLOY_TYPE = "github"
