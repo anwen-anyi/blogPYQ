@@ -49,7 +49,7 @@ SETTINGS_FRIENDS_LINKS = {
         ["ZkeqのCode日志", "https://icodeq.com/", "https://p6-tt.byteimg.com/origin/user-profile/77759605e13054f68a8d54ed7c510405.png", "feed.xml"],
         ["纳兰戏梦", "https://derm.top/", "https://z3.ax1x.com/2021/03/08/6lz4Dx.jpg", "index.php/feed/"],
         ["Xhofe's Blog", "https://nn.ci/", "https://nn.ci/images/avatar.png"],
-        ["日式JK", "https://jk.rs/", "https://pic.imgdb.cn/item/6174e6c42ab3f51d91e20031.jpg"],
+        ["日式JK", "https://jk.rs/", "https://pic.imgdb.cn/item/62fa36b616f2c2beb1fe5f07.jpg"],
         ["一楼没太阳", "https://ylmty.cc/", "https://q1.qlogo.cn/g?b=qq&nk=24130801&src_uin=www.jlwz.cn&s=0"],
         ["XIAOMING'S BLOG", "https://vimin.cc/", "https://pic.vimin.cc/logo.png"]
         # 示例2：使用suffix的配置如下
