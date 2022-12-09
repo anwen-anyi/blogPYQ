@@ -44,7 +44,7 @@ SETTINGS_FRIENDS_LINKS = {
     "json_api": "",
     "list": [
         # 示例1：
-        ["安稳Blog", "https://blog.zytllt.cn/", "https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/blog/anwen-200x200.png"],
+        ["安稳Blog's", "https://blog.zytllt.cn/", "https://cdn.jsdelivr.net/gh/anwen-anyi/imgAnwen/blog/anwen-200x200.png"],
         ["ZkeqのCoding日志", "https://icodeq.com/", "https://p6-tt.byteimg.com/origin/user-profile/77759605e13054f68a8d54ed7c510405.png"],
         ["ZkeqのCode日志", "https://icodeq.com/", "https://p6-tt.byteimg.com/origin/user-profile/77759605e13054f68a8d54ed7c510405.png", "feed.xml"],
         ["纳兰戏梦", "https://derm.top/", "https://z3.ax1x.com/2021/03/08/6lz4Dx.jpg", "index.php/feed/"],
